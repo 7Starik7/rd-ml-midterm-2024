@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+jupyter = "==1.1.1"
+pandas = "==2.2.3"
+matplotlib = "==3.9.2"
+seaborn = "==0.13.2"
+scikit-learn = "==1.5.2"
+picle = "==0.7.3"
+flask = "==3.1.0"
+gunicorn = "==23.0.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
+python_full_version = "3.12.0"
